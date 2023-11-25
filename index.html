@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Header menu -->
+    <div class="header-container">
+        <header>
+            <div class="logo">
+                <a href="#">Gus</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="select()">Home</a></li>
+                    <li><a href="#aboutme" onclick="select()">About Me</a></li>
+                    <li><a href="#skills" onclick="select()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="select()">CV</a></li>
+                    <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
+                    <li><a href="#contact" onclick="select()">Contact</a></li>
+                </ul>
+            </nav>  
+            <div class="nav-responsive" onclick="showHideMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Home section -->
+    <section id="home" class="home">
+        <div class="banner-content">
+            <div class="img-container">
+                <img src="img/Home.JPG" alt="">
+            </div>
+            <h1>Gustavo A. Perpetua</h1>
+            <h2>Tech Developer - Data Analyst </h2>
+            <div class="social">
+                <a href="https://www.instagram.com/puliperpetua/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/puliperpetua/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/gustavo-agustin-perpetua-918896207/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://join.skype.com/invite/ieOW85xKTJXg"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://github.com/GustavoPerpetua"><i class="fa-brands fa-github"></i></i></a>                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me section -->
+    <section id="aboutme" class="aboutme">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p><span>Hello, I'm Gustavo A. Perpetua, 29yo </span> I'm Argentinian. Passionate and proactive programmer/data analyst with a strong ability to work efficiently in a team and achieve common goals. My approach is characterized by creative problem-solving and a willingness to quickly learn new technologies and methods. Committed to professional growth, I am seeking challenging opportunities to apply my technical skills and contribute to the success of both the team and the organization.</p>
+            <div class="row">
+                <!-- personal data -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li><strong>Birthday:</strong>09-28-1994</li>
+                        <li><strong>Phone:</strong>+5493515056020</li>
+                        <li><strong>Email:</strong>gustavoaperpe@gmail.com</li>
+                        <li><strong>Location:</strong>Cordoba, Argentina</li>
+                        <li><strong>Position:</strong><span>Freelancer</span></li>
+                    </ul>
+                </div> 
+                <!-- personal interests -->
+                <div class="col">
+                    <h3>Personal Interests</h3>
+                    <div class="interests-container">
+                        <div class="interests">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-music"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>CODE</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>SPORTS</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-bowl-rice"></i>
+                            <span>FOOD</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-mug-saucer"></i>
+                            <span>COFFEE</span>
+                        </div>
+                        <div class="interests">
+                            <i class="fa-solid fa-tv"></i>
+                            <span>TV</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a href="download/Curriculum Gustavo Perpetua.pdf" class="button"
+            download>
+            Download CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- Technical Skills -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>EXCEL</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tableau</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Profesional Skills -->
+                <div class="col">
+                    <h3>Profesional Skills</h3>
+                    <div class="skill">
+                        <span>Comunication</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Team work</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Motivation</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Organized</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Eager to learn</span>
+                        <div class="skill-stick">
+                            <div class="progress">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV section -->
+    <section id="curriculum" class="curriculum">
+        <div class="section-content">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col izquierda">
+                    <h3>Work Experience</h3>
+                    <div class="item izq">
+                        <h4>Shift Leader</h4>
+                        <span class="place">Fly Chicken (Oslo, Norway)</span>
+                        <span class="date">2023</span>
+                        <p> I assumed a pivotal role in overseeing daily operations and ensuring the efficient functioning of the team during my tenure. My responsibilities included coordinating shifts, delegating tasks, and providing guidance to team members. I actively participated in training new staff, maintained high standards of customer service, and managed inventory levels.</p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Chef</h4>
+                        <span class="place">SushiClub (Cordoba, Argentina)</span>
+                        <span class="date">2018 - 2022</span>
+                        <p>I collaborated closely with the kitchen team to maintain a seamless workflow and upheld stringent food safety and hygiene standards. Additionally, I demonstrated creativity in menu development, adapting to changing culinary trends while consistently delivering an exceptional dining experience for guests. My role required precision, attention to detail, and a passion. </p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Housekeeping</h4>
+                        <span class="place">Devil´s Thumb Ranch (CO, USA)</span>
+                        <span class="date">2018 - 2019</span>
+                        <p> I gained valuable experience working as a Housekeeping staff member during a winter season. My duties included thorough room cleaning, linen management, and ensuring a welcoming environment for guests.</p>
+                        <div class="conectori">
+                            <div class="circlei"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Studies</h3>
+                    <div class="item der">
+                        <h4>Culinary school</h4>
+                        <span class="place">Celia</span>
+                        <span class="date">2018 - 2019</span>
+                        <p>I am a professionally trained gastronomic professional, having successfully completed my culinary education at a renowned culinary school. My comprehensive training encompasses a wide range of culinary techniques, food preparation, and kitchen management skills, positioning me as a skilled and knowledgeable culinary professional.</p>
+                        <div class="conectorj">
+                            <div class="circlej"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Certified Tech Developer</h4>
+                        <span class="place">Digital House</span>
+                        <span class="date">2022 - 2023</span>
+                        <p>I possess a strong foundation in programming languages, including HTML, CSS, SQL, Java, and JavaScript, acquired through dedicated study. Complementing my technical skills, I have cultivated valuable soft skills, such as effective communication and teamwork.</p>
+                        <div class="conectorj">
+                            <div class="circlej"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Mechanical Engineering</h4>
+                        <span class="place">National University of Cordoba</span>
+                        <span class="date">2012 - 2017</span>
+                        <p>I pursued a six-year course of study in Mechanical Engineering, demonstrating a commitment to technical proficiency and problem-solving skills. Despite reaching the midway point, I made the difficult decision to pause my academic journey due to personal circumstances. </p>
+                        <div class="conectorj">
+                            <div class="circlej"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section -->
+    <!-- <section id="portfolio" class="portfolio">
+        <div class="section-content">
+            <h2>PORTFOLIO</h2>
+            <div class="galery">
+                <div class="project">
+                    <img src="" alt="project1">
+                    <div class="overlay">
+                        <h3>project title</h3>
+                        <p>description</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="" alt="project1">
+                    <div class="overlay">
+                        <h3>project title</h3>
+                        <p>description</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="" alt="project1">
+                    <div class="overlay">
+                        <h3>project title</h3>
+                        <p>description</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-content">
+            <h2>Contact</h2>
+            <div class="row">
+                <!-- Form -->
+                <div class="col">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone number">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <button> 
+                        Send Message 
+                        <i class="fa-solid fa-message"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Map -->
+                <div class="col">
+                    <img src="img/location-info.jpeg" alt="Home location">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Cerro Colorado 3055, Argentina, Cordoba
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Phone: +5493515056020
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-envelope"></i>
+                                Email: gustavoaperpe@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <a href="#home" class="up">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+        <div class="social">
+            <a href="https://www.instagram.com/puliperpetua/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/puliperpetua/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/gustavo-agustin-perpetua-918896207/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://join.skype.com/invite/ieOW85xKTJXg"><i class="fa-brands fa-skype"></i></a>
+            <a href="https://github.com/GustavoPerpetua"><i class="fa-brands fa-github"></i></i></a>                
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
