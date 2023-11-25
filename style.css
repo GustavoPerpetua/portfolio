@@ -79,7 +79,7 @@ html{
     display: block;
     width: 250px;    
     margin: auto;
-    border-radius: 160px;
+    border-radius: 50%;
 }
 .home .banner-content h1{
     margin-top: 40px;
