@@ -348,19 +348,22 @@
             <h2>Contact</h2>
             <div class="row">
                 <!-- Form -->
-                <div class="col">
-                    <form action="">
+                <div class="col" id="formContainer">
+                    <form action="" id="myForm">
                         <input type="text" placeholder="Name">
                         <input type="text" placeholder="Phone number">
                         <input type="email" placeholder="Email">
                         <input type="text" placeholder="Subject">
                         <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                        <button> 
+                        <button id="submitButton"> 
                             Send Message 
                             <i class="fa-solid fa-message"></i>
                             <span class="overlay"></span>
                         </button>
                     </form>
+                </div>
+                <div id="messageSend" style="display: none;">
+                    <p>¡Form submitted successfully!</p>
                 </div>
                 <!-- Map -->
                 <div class="col">

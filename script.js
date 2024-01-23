@@ -40,4 +40,15 @@ function habilityEffect(){
 window.onscroll = function(){
     habilityEffect();
 }
-// min 1:46
+
+function showMessage() {
+    document.getElementById("formContainer").style.display = "none";
+    document.getElementById("messageSend").style.display = "block";
+}
+
+var submitButton = document.getElementById("submitButton");
+submitButton.addEventListener("click", function (event) {
+    event.preventDefault();  
+    showMessage();  
+});
+    // min 1:46
