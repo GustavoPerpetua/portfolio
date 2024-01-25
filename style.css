@@ -575,6 +575,14 @@ html {
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+.portfolio .galery a {
+	text-decoration: none;
+	color: inherit;
+}
+.portfolio .galery a:hover {
+	text-decoration: underline;
+}
+
 .portfolio .galery .project {
 	position: relative;
 	max-width: 340px;
