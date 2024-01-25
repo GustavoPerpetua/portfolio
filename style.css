@@ -286,7 +286,7 @@ html {
 		width: 0%;
 	}
 	100% {
-		width: 50%;
+		width: 75%;
 	}
 }
 .skills .skill .htmlcss {
@@ -337,11 +337,11 @@ html {
 		width: 50%;
 	}
 }
-.skills .skill .excel {
+.skills .skill .NodeJS {
 	width: 0%;
-	animation: 2s excel forwards;
+	animation: 2s NodeJS forwards;
 }
-@keyframes excel {
+@keyframes NodeJS {
 	0% {
 		width: 0%;
 	}
@@ -349,16 +349,16 @@ html {
 		width: 85%;
 	}
 }
-.skills .skill .tableau {
+.skills .skill .React {
 	width: 0%;
-	animation: 2s tableau forwards;
+	animation: 2s React forwards;
 }
-@keyframes tableau {
+@keyframes React {
 	0% {
 		width: 0%;
 	}
 	100% {
-		width: 70%;
+		width: 50%;
 	}
 }
 .skills .skill .comunication {

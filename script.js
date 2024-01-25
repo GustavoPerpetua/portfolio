@@ -25,8 +25,8 @@ function habilityEffect(){
         habilities[2].classList.add("python");
         habilities[3].classList.add("sql");
         habilities[4].classList.add("java");
-        habilities[5].classList.add("excel");
-        habilities[6].classList.add("tableau");
+        habilities[5].classList.add("NodeJS");
+        habilities[6].classList.add("React");
         habilities[7].classList.add("comunication");
         habilities[8].classList.add("teamwork");
         habilities[9].classList.add("creativity");
